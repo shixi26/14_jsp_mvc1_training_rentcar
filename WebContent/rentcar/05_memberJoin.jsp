@@ -26,6 +26,10 @@
 				<td width="180"><input type="email" name="email" size="30"></td>
 			</tr>
 			<tr height="40">
+				<td width="120" align="center">전화번호</td>
+				<td width="180"><input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" title="###-####-####" size="30"></td>
+			</tr>
+			<tr height="40">
 				<td width="120" align="center">관련취미</td>
 				<td width="180"><input type="text" name="hobby" size="30"></td>
 			</tr>

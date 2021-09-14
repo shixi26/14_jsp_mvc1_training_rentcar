@@ -32,6 +32,7 @@
 					if(id.equals("GUEST")) {
 				%>
 						<button onclick="location.href='01_carMain.jsp?center=07_memberLogin.jsp'">로그인</button>
+						<button onclick="location.href='01_carMain.jsp?center=05_memberJoin.jsp'">회원가입</button>
 				<%
 					//관리자라면 관리자메뉴 버튼 추가
 					} else if(id.equals("admin")) {
